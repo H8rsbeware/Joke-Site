@@ -1,0 +1,14 @@
+body{
+    padding:5% 0 0 3%;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+.btn{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.display-4{
+    font-weight: 700;
+
+}

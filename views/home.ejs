@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Joke page</title>
+    </head>
+    <body>
+        <h1 class="jhead">Jokes</h1>
+
+        <p><%= html1%></p>
+        
+        <form class="" action="" method="post">
+            <div>
+                
+                <br><h2>Topic: </h2>
+
+                <input id="pgm" type="checkbox" name="pgm">
+                <label for="pgm">Programming</label><br>
+                <input id="misc" type="checkbox" name="misc">
+                <label for="misc">Miscellaneous</label><br>
+                <input id="dark" type="checkbox" name="dark">
+                <label for="dark">Dark</label><br>
+                <input id="pun" type="checkbox" name="pun">
+                <label for="pun">Pun</label><br>
+                <input id="spooky" type="checkbox" name="spooky">
+                <label for="spooky">Spooky</label><br>
+                <input id="christmas" type="checkbox" name="christmas">
+                <label for="christmas">Christmas</label><br>
+            </div>
+            
+            <div>
+                <br><h2>Blacklist: </h2>
+
+                <input id="nsfw" type="checkbox" name="nsfw">
+                <label for="nsfw">NSFW</label><br>
+                <input id="rel" type="checkbox" name="rel">
+                <label for="rel">Religious</label><br>
+                <input id="pol" type="checkbox" name="pol">
+                <label for="pol">Political</label><br>
+                <input id="race" type="checkbox" name="race">
+                <label for="race">Racist</label><br>
+                <input id="sex" type="checkbox" name="sex">
+                <label for="sex">Sexist</label><br>
+                <input id="exp" type="checkbox" name="exp">
+                <label for="exp">Explicit</label><br>
+
+            </div>
+            
+            <br>
+            <button type="submit" class="btn btn-primary btn-md">New Joke</button>
+            <p><small>Leave blank for all</small></p>
+        </form>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/code.js"></script>
+    </body>
+    <footer>
+        <small><p><a href="signup">Sign Up for the Newsletter (WIP)</a></p></small>
+    </footer>
+</html>
